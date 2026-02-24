@@ -20,10 +20,9 @@ export function CTA() {
                 className="bg-accent text-accent-foreground hover:bg-accent/90"
                 asChild
               >
-                <Link href="#pilot">
-                  Join the pilot
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
+                  <a target="_blank" href="https://forms.gle/dxGzFKaHGb3w334W8" rel="noopener noreferrer">
+                    Join the pilot
+                  </a>
               </Button>
             </div>
             <p className="mx-auto mt-6 max-w-md text-sm leading-relaxed text-primary-foreground/50">

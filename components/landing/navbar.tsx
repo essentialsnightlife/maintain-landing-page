@@ -41,19 +41,21 @@ export function Navbar() {
 
         <div className="hidden items-center md:flex">
           <Button
-            size="sm"
-            className="bg-accent text-accent-foreground hover:bg-accent/90"
-            asChild
+              size="sm"
+              className="bg-accent text-accent-foreground hover:bg-accent/90"
+              asChild
           >
-            <Link href="#pilot">Join the pilot</Link>
+            <a target="_blank" href="https://forms.gle/dxGzFKaHGb3w334W8" rel="noopener noreferrer">
+              Join the pilot
+            </a>
           </Button>
         </div>
 
         <button
-          type="button"
-          className="md:hidden"
-          onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label={mobileOpen ? "Close menu" : "Open menu"}
+            type="button"
+            className="md:hidden"
+            onClick={() => setMobileOpen(!mobileOpen)}
+            aria-label={mobileOpen ? "Close menu" : "Open menu"}
         >
           {mobileOpen ? (
             <X className="h-6 w-6 text-foreground" />
@@ -82,7 +84,7 @@ export function Navbar() {
                 className="w-full bg-accent text-accent-foreground hover:bg-accent/90"
                 asChild
               >
-                <Link href="#pilot">Join the pilot</Link>
+                <Link href="https://forms.gle/dxGzFKaHGb3w334W8">Join the pilot</Link>
               </Button>
             </div>
           </div>
