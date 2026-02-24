@@ -1,10 +1,10 @@
 import { Check } from "lucide-react";
 
 const audiences = [
-  "Yoga, Pilates, CrossFit, martial arts, fitness studios",
+  "Yoga, Hyrox, Pilates, CrossFit, fitness studios",
   "1\u20133 locations",
   "Classes with limited capacity",
-  "Manual or semi-manual bookings",
+  "Currently using manual or semi-manual booking systems",
 ];
 
 export function Testimonials() {

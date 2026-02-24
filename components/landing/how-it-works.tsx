@@ -3,32 +3,26 @@ const steps = [
     number: "01",
     title: "We set up a simple booking link",
     description:
-      "No tech setup on your end. We create a clean booking page for your classes and share it with you.",
+      "We create a dedicated booking page for your classes and share it with you. No tech setup on your end.",
   },
   {
     number: "02",
-    title: "Customers get automatic reminders",
+    title: "Your Customers get automatic notifications",
     description:
-      "Members who book receive well-timed reminders so they actually show up. Cancellations trigger automatic waitlist backfill.",
+      "Members who book receive well-timed reminders. Cancellations trigger automatic waitlist backfill.",
   },
   {
     number: "03",
     title: "You get a clear attendance report",
     description:
-      "A simple dashboard shows you real attendance data, demand patterns, and where your schedule can improve.",
+      "Our simple dashboard shows you real attendance data, demand patterns and where your schedule can improve.",
   },
   {
     number: "04",
-    title: "We measure the impact over 2 weeks",
+    title: "We measure the impact after the 2 week trial",
     description:
-      "Together we track no-show rates, fill rates, and rebookings. You see the numbers, not just promises.",
-  },
-  {
-    number: "05",
-    title: "If it doesn't help, we stop",
-    description:
-      "No lock-in, no contracts. If the data doesn't show improvement, we part ways. Simple as that.",
-  },
+      `Together we review attendance, no-shows and rebooking data. You see the numbers, not just promises.\n\n If the data doesn't show improvement then we stop - no lock-in, no contracts.`,
+  }
 ];
 
 export function HowItWorks() {
@@ -44,7 +38,7 @@ export function HowItWorks() {
           </p>
           <h2 className="font-display text-3xl font-bold text-foreground md:text-4xl">
             <span className="text-balance">
-              Five steps. Two weeks. Real results.
+              Four steps. Two weeks. Real results.
             </span>
           </h2>
         </div>

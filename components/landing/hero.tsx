@@ -9,11 +9,19 @@ export function Hero() {
       <div className="mx-auto max-w-7xl">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="flex flex-col gap-6">
-            <div className="inline-flex w-fit items-center gap-2 rounded-full border border-border bg-card px-4 py-1.5">
-              <span className="h-2 w-2 rounded-full bg-accent" />
+            <div
+                className="
+    relative inline-flex w-fit items-center gap-2 rounded-full
+    border border-border bg-card px-4 py-1.5
+    after:pointer-events-none after:absolute after:inset-[-3px] after:rounded-full
+    after:border-2 after:border-accent/0
+    after:content-[''] after:animate-border-flash
+  "
+            >
+              <span className="h-2 w-2 rounded-full bg-accent"/>
               <span className="text-sm font-medium text-muted-foreground">
-                Now accepting pilot studios
-              </span>
+    Now accepting pilot studios
+  </span>
             </div>
 
             <h1 className="font-display text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl">
@@ -29,7 +37,7 @@ export function Hero() {
             </p>
 
             <p className="max-w-lg text-base leading-relaxed text-muted-foreground">
-              A lightweight booking + reminder system for boutique studios that
+              A lightweight booking + reminder system for boutique performance studios that
               want predictable attendance.
             </p>
 
@@ -50,11 +58,10 @@ export function Hero() {
           <div className="relative">
             <div className="overflow-hidden rounded-2xl border border-border bg-card shadow-xl">
               <Image
-                src="/hero-dashboard.jpg"
-                alt="Steadfast dashboard showing class schedule and attendance analytics"
+                src="/crossfit.jpg"
+                alt="a busy crossfit class"
                 width={800}
-                height={520}
-                className="w-full"
+                height={620}
                 priority
               />
             </div>

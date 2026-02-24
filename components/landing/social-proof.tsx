@@ -51,11 +51,8 @@ export function SocialProof() {
         </div>
 
         <div className="mt-10 text-center">
-          <p className="text-base text-muted-foreground">
-            Most studios accept this as "just how it is".
-          </p>
           <p className="mt-2 font-display text-lg font-semibold text-foreground">
-            {"It doesn't have to be."}
+            {"It doesn't have to be this way."}
           </p>
         </div>
       </div>

@@ -12,7 +12,7 @@ export function Footer() {
               </span>
             </div>
             <span className="font-display text-xl font-bold text-foreground">
-              Steadfast
+              Session Sync
             </span>
           </Link>
 
@@ -46,7 +46,7 @@ export function Footer() {
 
         <div className="mt-8 border-t border-border pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            2026 Steadfast. All rights reserved.
+            2026 Session Sync. All rights reserved.
           </p>
         </div>
       </div>

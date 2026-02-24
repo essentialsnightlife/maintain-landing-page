@@ -23,7 +23,7 @@ export function Navbar() {
             <span className="text-sm font-bold text-primary-foreground">S</span>
           </div>
           <span className="font-display text-xl font-bold text-foreground">
-            Steadfast
+            Session Sync
           </span>
         </Link>
 

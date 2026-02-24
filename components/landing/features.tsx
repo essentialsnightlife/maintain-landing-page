@@ -23,7 +23,7 @@ const features = [
     icon: CalendarCheck,
     title: "See which classes to add, cancel, or reschedule",
     description:
-      "Clear attendance reports tell you what to double down on and what to drop. Optimize your schedule with confidence.",
+      "Clear attendance reports tell you where to focus and optimize your schedule with confidence.",
   },
 ];
 
@@ -33,15 +33,15 @@ export function Features() {
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto mb-16 max-w-2xl text-center">
           <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-accent">
-            What this does
+            What Session sync does
           </p>
           <h2 className="font-display text-3xl font-bold text-foreground md:text-4xl">
             <span className="text-balance">
-              We help studios do more with what they have
+              We help studios do more with what they already have
             </span>
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-            No apps. No platforms. No complexity.
+            No new apps, platforms or complexity.
           </p>
         </div>
 
