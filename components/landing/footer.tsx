@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 export function Footer() {
+  const date = new Date().getFullYear();
+
   return (
     <footer className="border-t border-border bg-card px-6 py-12">
       <div className="mx-auto max-w-7xl">
@@ -12,7 +14,7 @@ export function Footer() {
               </span>
             </div>
             <span className="font-display text-xl font-bold text-foreground">
-              Session Sync
+              Session Signal
             </span>
           </Link>
 
@@ -46,7 +48,7 @@ export function Footer() {
 
         <div className="mt-8 border-t border-border pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            2026 Session Sync. All rights reserved.
+            {date} Copyright&copy; Session Signal. All rights reserved.
           </p>
         </div>
       </div>

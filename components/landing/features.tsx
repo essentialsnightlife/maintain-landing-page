@@ -5,23 +5,23 @@ const features = [
     icon: BarChart3,
     title: "Track real demand per class",
     description:
-      "See exactly which classes fill, which stall, and where the gaps are. Make decisions based on data, not guesswork.",
+      "See exactly which classes fill, which stall and where the gaps are. Make decisions based on data, not guesswork.",
   },
   {
     icon: Bell,
     title: "Reduce no-shows with simple reminders",
     description:
-      "Automatic, well-timed reminders so members actually show up. No complex app for them to download.",
+      "Automated, well-timed reminders to support your members. No complex app for them to download.",
   },
   {
     icon: RefreshCw,
     title: "Refill cancelled spots automatically",
     description:
-      "When someone cancels, the next person on the waitlist gets notified instantly. No manual chasing.",
+      "When someone cancels the next person on the waitlist gets notified instantly. No manual chasing.",
   },
   {
     icon: CalendarCheck,
-    title: "See which classes to add, cancel, or reschedule",
+    title: "See which classes to add, cancel or reschedule",
     description:
       "Clear attendance reports tell you where to focus and optimize your schedule with confidence.",
   },
@@ -33,7 +33,7 @@ export function Features() {
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto mb-16 max-w-2xl text-center">
           <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-accent">
-            What Session sync does
+            What Session Signal does
           </p>
           <h2 className="font-display text-3xl font-bold text-foreground md:text-4xl">
             <span className="text-balance">
