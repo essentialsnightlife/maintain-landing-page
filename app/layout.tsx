@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
     title: "Session Signal - Booking Retention for Boutique Fitness",
@@ -17,6 +18,7 @@ export default function RootLayout({
           className="font-sans antialiased"
       >
         {children}
+      <Analytics />
       </body>
     </html>
   );
