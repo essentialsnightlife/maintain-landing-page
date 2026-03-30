@@ -26,7 +26,7 @@ export function Hero() {
 
             <h1 className="font-display text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl">
               <span className="text-balance">
-                Fill more classes. Fewer no-shows.
+                Fill more spots. Increase revenue per class.
               </span>
             </h1>
 
@@ -37,8 +37,8 @@ export function Hero() {
             </p>
 
             <p className="max-w-lg text-base leading-relaxed text-muted-foreground">
-              A lightweight booking + reminder system for boutique performance studios that
-              want predictable attendance.
+              A lightweight system for boutique performance studios that
+              want more predictable, fully booked attendances.
             </p>
 
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">

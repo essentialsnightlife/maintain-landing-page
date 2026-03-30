@@ -21,7 +21,7 @@ const steps = [
     number: "04",
     title: "We measure the impact after the 2 week trial",
     description:
-      `Together we review attendance, no-shows and rebooking data. You see the numbers, not just promises.\n\n If the data doesn't show improvement then we stop - no lock-in, no contracts.`,
+      `Together we review attendance, filled spots and revenue impact. You see the numbers, not just promises.`,
   }
 ];
 
@@ -38,7 +38,7 @@ export function HowItWorks() {
           </p>
           <h2 className="font-display text-3xl font-bold text-foreground md:text-4xl">
             <span className="text-balance">
-              Four steps. Two weeks. Real results.
+              Four steps. Two weeks. Measurable impact on filled spots and class revenue:
             </span>
           </h2>
         </div>

@@ -11,7 +11,7 @@ const faqs = [
   {
     question: "What exactly is the pilot?",
     answer:
-      "It's a free, no-obligation 2-week test. We set up a booking + reminder system for your studio and measure the impact on attendance. If it doesn't help, we stop. No cost, no contract.",
+      "It's a free, no-obligation 2-week test. We set up a booking + reminder system for your studio and measure the impact on attendance and filled class capacity. If it doesn't help, we stop. No cost, no contract.",
   },
   {
     question: "How long does setup take?",

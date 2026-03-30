@@ -3,19 +3,19 @@ import { CalendarX, Ghost, Clock, Pencil } from "lucide-react";
 const problems = [
   {
     icon: Ghost,
-    text: "People forget they booked",
+    text: "No shows impact your expected revenue",
   },
   {
     icon: CalendarX,
-    text: "Classes run half empty",
+    text: "Classes that should be full end up half empty",
   },
   {
     icon: Clock,
-    text: "Cancellations come too late to refill",
+    text: "Late cancellations leave spots unfilled",
   },
   {
     icon: Pencil,
-    text: "Schedules are managed manually",
+    text: "Real demand isn’t visible until it’s too late",
   },
 ];
 
@@ -29,7 +29,7 @@ export function SocialProof() {
           </p>
           <h2 className="font-display text-3xl font-bold text-foreground md:text-4xl">
             <span className="text-balance">
-              Studios lose money every week because:
+              Studios lose revenue every week from missing participants:
             </span>
           </h2>
         </div>
@@ -52,7 +52,7 @@ export function SocialProof() {
 
         <div className="mt-10 text-center">
           <p className="mt-2 font-display text-lg font-semibold text-foreground">
-            {"It doesn't have to be this way."}
+            {"It adds up quickly, but it doesn't have to be this way."}
           </p>
         </div>
       </div>

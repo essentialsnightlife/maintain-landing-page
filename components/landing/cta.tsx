@@ -21,7 +21,7 @@ export function CTA() {
                 asChild
               >
                   <a target="_blank" href="https://forms.gle/dxGzFKaHGb3w334W8" rel="noopener noreferrer">
-                    Join the pilot
+                    Join the pilot - increase filled spots in two weeks
                   </a>
               </Button>
             </div>

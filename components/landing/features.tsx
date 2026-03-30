@@ -3,27 +3,27 @@ import { BarChart3, Bell, RefreshCw, CalendarCheck } from "lucide-react";
 const features = [
   {
     icon: BarChart3,
-    title: "Track real demand per class",
+    title: "See where revenue is being lost",
     description:
-      "See exactly which classes fill, which stall and where the gaps are. Make decisions based on data, not guesswork.",
+      "Identify which classes consistently underfill and where demand is strongest, so you can make better decisions.",
   },
   {
     icon: Bell,
-    title: "Reduce no-shows with simple reminders",
+    title: "Keep more booked spots filled",
     description:
-      "Automated, well-timed reminders to support your members. No complex app for them to download.",
+      "Well timed reminders to support your members to show up and protect your expected revenue",
   },
   {
     icon: RefreshCw,
-    title: "Refill cancelled spots automatically",
+    title: "Turn cancellations into confirmations",
     description:
-      "When someone cancels the next person on the waitlist gets notified instantly. No manual chasing.",
+      "When someone cancels the next person on the waitlist gets notified instantly, reducing wasted capacity.",
   },
   {
     icon: CalendarCheck,
-    title: "See which classes to add, cancel or reschedule",
+    title: "Optimise your schedule for revenue, not guesswork",
     description:
-      "Clear attendance reports tell you where to focus and optimize your schedule with confidence.",
+      "Clear visibility into which classes are worth running, adjusting or replacing.",
   },
 ];
 
@@ -37,7 +37,7 @@ export function Features() {
           </p>
           <h2 className="font-display text-3xl font-bold text-foreground md:text-4xl">
             <span className="text-balance">
-              We help studios do more with what they already have
+              We help studios increase revenue from the classes they already run.
             </span>
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
