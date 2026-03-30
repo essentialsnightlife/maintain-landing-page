@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Session Signal Landing Page
 
-## Getting Started
+Marketing landing page for **Session Signal**, a lightweight booking + reminder product for boutique performance studios.
 
-First, run the development server:
+Built with Next.js.
+
+## Tech Stack
+
+- Next.js 16 (App Router)
+- React 19 + TypeScript
+- Tailwind CSS 4
+
+## Run Locally
+
+### Prerequisites
+
+- Node.js 20+
+- npm 10+
+
+### Install
+
+```bash
+npm install
+```
+
+### Start dev server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev` - start local development server
+- `npm run build` - build production bundle
+- `npm run start` - run production server
+- `npm run lint` - run ESLint
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```text
+app/
+  layout.tsx              # Root layout
+  page.tsx                # Homepage composition
+  globals.css             # Global styles + theme tokens
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+components/landing/       # Homepage sections
+  navbar.tsx
+  hero.tsx
+  social-proof.tsx
+  features.tsx
+  how-it-works.tsx
+  testimonials.tsx
+  cta.tsx
+  faq.tsx
+  footer.tsx
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+components/ui/            # Reusable UI primitives
+hooks/                    # Shared hooks
+lib/utils.ts              # Utility helpers
+public/                   # Static assets/images
+```
 
-## Deploy on Vercel
+## Editing Content
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Most copy and layout updates happen in `components/landing/*`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Hero headline/CTA: `components/landing/hero.tsx`
+- Navigation links and pilot button: `components/landing/navbar.tsx`
+- Footer links and brand text: `components/landing/footer.tsx`
+- Section order: `app/page.tsx`
+
+## Deployment
+
+Deploy as a standard Next.js app (for example on Vercel):
+
+1. Push this repository.
+2. Import the project into your hosting provider.
+3. Build command: `npm run build`
+4. Start command: `npm run start`
+
+## Notes
+
+- Pilot signup currently links to a Google Form from CTA/nav buttons.
+- No environment variables are required for the current implementation.
